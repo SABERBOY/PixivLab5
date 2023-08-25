@@ -147,7 +147,7 @@ def get_file_list(path: str, file_ext: List[str]) -> List[str]:
 
 def get_proxy():
     proxies = {"http": "http://127.0.0.1:10900", "https": "http://127.0.0.1:10900"}
-    # proxies = None
+    proxies = None
     return proxies
 
 
